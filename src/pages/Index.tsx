@@ -136,7 +136,7 @@ Thank you!`;
             {services.map((service, index) => {
               const IconComponent = service.icon;
               return (
-                <div key={index} className="service-card animate-slide-up" style={{ animationDelay: `${index * 100}ms` }}>
+                <div key={index} className="service-card group animate-slide-up" style={{ animationDelay: `${index * 100}ms` }}>
                   <div className="flex items-center mb-4">
                     <div className="w-12 h-12 bg-gradient-primary rounded-xl flex items-center justify-center mr-4">
                       <IconComponent className="text-white" size={24} />

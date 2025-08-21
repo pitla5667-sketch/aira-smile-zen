@@ -103,7 +103,7 @@
 
   /* Service Card */
   .service-card {
-    @apply glass-card p-6 hover:shadow-xl hover:scale-105 transition-all duration-300 group cursor-pointer;
+    @apply glass-card p-6 hover:shadow-xl hover:scale-105 transition-all duration-300 cursor-pointer;
   }
 
   /* Form Elements */
